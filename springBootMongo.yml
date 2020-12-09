@@ -23,7 +23,8 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: dockerhandson/spring-boot-mongo
+      ##- image: dockerhandson/spring-boot-mongo##
+        - image: adhi2019/deveopshcltest
         name: springboot
         ports:
         - containerPort: 8080  
